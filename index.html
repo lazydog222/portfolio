@@ -1,0 +1,60 @@
+<!-- The code in this HTML file was based off of Jeff's video on bootstrap! 
+    Here is the link: https://www.youtube.com/watch?v=6Df6xbs5m8A&ab_channel=JeffHuang -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Henry Schaefer Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-custom navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">HS</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="navbar-item"><a href="#Design_Statement" class="nav-link">Design Statement</a></li>
+                    <li class="navbar-item"><a href="#p" class="nav-link">Projects</a></li>
+                    <li class="navbar-item"><a href="#c" class="nav-link">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+    <div class = "d-flex flex-column blankets justify-content-center align-items-center">
+        <h1 class="text-dark display-2">Henry Schaefer</h1>
+        <h2> Design Portfolio </h2>
+    </div> 
+    <div id = "Design_Statement" class = "container-fluid text-center border-bottom">
+        <h4 class = "pt-3"> Design Statement </h4> 
+        <p class = "lead"> I intend to create designs that are transparent, elegant, and easy to use. </p>
+    </div>
+    <div id = "p" class = "container-fluid text-center border-bottom">
+        <h4 class = "pt-3"> Projects </h4> 
+        <div class="d-flex flex-row justify-content-around text-center flex-wrap">
+            <div class="border p-5 m-5 rounded shadow flex-column w-25">
+                <h3 class = "pb-3"> Responsive Website Redesign </h3>
+                <a href = "https://lazydog222.github.io/project_2/#"> <img src = "./project_img/3.png" class = "w-100">  <a>
+            </div>
+            <div class="border p-5 m-5 rounded shadow flex-column w-25">
+                <h3 class = "pb-3"> Toaster Interface Analysis </h3>
+                <a href = "toaster.html"> <img src = "./project_img/2.png" class = "w-100">  <a>
+            </div>
+            <div class="border p-5 m-5 rounded shadow flex-column w-25">
+                <h3 class = "pb-3"> React Photo Gallery </h3>
+                <a href = "https://lazydog222.github.io/dev/"> <img src = "./project_img/4.png" class = "w-100">  <a>
+            </div>
+            <div class="border p-5 m-5 rounded shadow flex-column w-25">
+                <h3 class = "pb-3"> Material Design </h3>
+                <a href = "box.html"> <img src = "./project_img/1.png" class = "w-100">  <a>
+            </div>
+        </div>
+    </div>
+    <div id = "c" class = "container-fluid text-center border-bottom">
+        <h4 class = "pt-3"> Contact Information </h4> 
+        <p class = "lead"> Phone: 401-219-4227 <br> Email: henry_schaefer@brown.edu </p>
+    </div>
+</body>
+</html>
